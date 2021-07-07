@@ -26,6 +26,8 @@
 (defroute "/" ()
   (render #P"index.html"))
 
+(defroute "/dashboard" ()
+  (render #P"dashboard.html"))
 ;;
 ;; Error pages
 
